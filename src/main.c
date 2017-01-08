@@ -57,6 +57,9 @@ int main(int argc, char *argv[])
   free(fileName);
   free(endFileName);
   
+  filp = NULL;
+  endFilp = NULL;
+  
   return 0;
 }
 
